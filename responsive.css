@@ -1,0 +1,193 @@
+@media screen and (max-width:1279px) and (min-width:769px) {
+    .col-3-main p{
+        font-size: 12px;
+    }
+    .col-4-botttom{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .left-part p{
+        font-size: 13px;
+    }
+    .left-part h1{
+        font-size: 17px;
+        
+    }
+    .left-part{
+        width: 50%;
+    }
+    .image2{
+        width: 50%;
+    }
+    
+    .black-line-1{
+        width: 160px;
+    }
+    .navbar a{
+        font-size: 15px;
+    
+    }
+    .col-2-heading{
+        margin-top: 0px;
+    }
+    .black-line{
+        margin-bottom: 15px;
+    }
+    .image4{
+        width: 80px;
+        height: 80px;
+    }
+}
+@media screen and (max-width:768px) and (min-width:481px) {
+    .container{
+        grid-template-columns: repeat(2, 1fr,1fr);
+        grid-template-rows: auto auto auto;
+    }
+    .menu{
+        display: none;
+    }
+    .company{
+        width: 780px;
+    }
+    .collection{
+        display: none;
+    }
+    .mission{
+        display: none;
+    }
+    .event, .contact{
+        display: none;
+    }
+    .menu{
+        display: block;
+        width: 100%;
+        border: 1px solid #B1A592;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #B1A592;
+        margin-left: 0;
+    }
+    .nav-left{
+        
+        width: 70%;
+    }
+    .nav-right{
+       width: 30%;
+    }
+    .menu:hover{
+        background-color: #B1A592;
+        color: #333333;
+    }
+    .col-2-heading{
+        margin-top: 0px;
+    }
+    .left-part{
+        width: 40%;
+    }
+    .image2{
+        width: 60%;
+        height: 200px;
+    }
+    .left-part p{
+        font-size: 15px;
+    }
+    .left-part h1{
+        font-size: 20px;
+
+    }
+    .col-1{
+        grid-column: 1/4;
+    }
+    .col-2{
+        grid-column: 1/4;
+    }
+    .col-3{
+        grid-column: 1/2;
+    }
+    .col-4{
+        grid-column: 2/2;
+    }
+    .image4{
+        width: 60px;
+        height: 60px;
+    }
+    .col-3-bottom p{
+        font-size: 14px;
+    }
+    
+    .col-3-main h1{
+        margin-top: 15px;
+    }
+    .black-line{
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width:480px) {
+    .container{
+        grid-template-columns: repeat(2, 1fr,1fr);
+        grid-template-rows: auto auto auto;
+    }
+    .menu{
+        display: none;
+    }
+    .company{
+        width: 780px;
+    }
+    .collection{
+        display: none;
+    }
+    .mission{
+        display: none;
+    }
+    .event, .contact{
+        display: none;
+    }
+    .menu{
+        display: block;
+        width: 100%;
+        border: 1px solid #B1A592;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #B1A592;
+        margin-left: 0;
+    }
+    .nav-left{
+        width: 70%;
+    }
+    .nav-right{
+       width: 30%;
+    }
+    .menu:hover{
+        background-color: #B1A592;
+        color: #333333;
+    }
+    .col-2-heading{
+        margin-top: 10px;
+    }
+    .image2{
+        margin-top: 15px;
+        width: 100%;
+        height: 140px;
+    }
+    .black-line{
+        margin-bottom: 15px;
+    }
+    .col-4-top-left h1{
+        font-size: 20px;
+    }
+    .col-3 h1{
+        margin-top: 15px;
+    }
+    .image4{
+        height: 50px;
+        width: 50px;
+    }
+    .col-4-botttom p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
